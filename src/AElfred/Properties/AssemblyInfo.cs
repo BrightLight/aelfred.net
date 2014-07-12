@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Ælfred.Net")]
-[assembly: AssemblyDescription("Parse XML documents and return parse events through call-backs.")]
+[assembly: AssemblyDescription("Ælfred.Net is SAX2-compatible a non-validating XML parser.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Rasmus John Pedersen")]
 [assembly: AssemblyProduct("Ælfred.Net")]

@@ -4,6 +4,13 @@
 
 Ælfred.Net is SAX2-compatible a non-validating XML parser.
 
+## Installation
+
+To install [Ælfred.Net](https://www.nuget.org/packages/aelfred.net) from the [NuGet Gallery](http://www.nuget.org), run the following in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
+```powershell
+PM> Install-Package AElfred.Net
+```
+
 # Configuration
 
 To use Ælfred.Net set `xmlReaderFactoryType` to `AELFred.Net.XmlReaderFactory, AElfred.Net`
