@@ -13,13 +13,13 @@ PM> Install-Package AElfred.Net
 
 # Configuration
 
-To use Ælfred.Net set `xmlReaderFactoryType` to `AELFred.Net.XmlReaderFactory, AElfred.Net`
+To use Ælfred.Net set `xmlReaderFactoryType` to `AElFred.Net.XmlReaderFactory, AElfred.Net`
 
 ``` XML
 <configSections>
   <section name="sax" type="Sax.Net.Helpers.SaxConfigurationSection, Sax.Net"/>
 </configSections>
-<sax xmlReaderFactoryType="AELFred.Net.XmlReaderFactory, AElfred.Net"/>
+<sax xmlReaderFactoryType="AElfred.Net.XmlReaderFactory, AElfred.Net"/>
 ```
 
 # Usage
