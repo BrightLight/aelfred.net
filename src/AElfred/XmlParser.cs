@@ -4845,7 +4845,7 @@ namespace AElfred.Net
     {
       int i = 0;
       int j = this._readBufferPos;
-      int b1;
+      byte b1;
       char c;
 
       /*
@@ -4861,7 +4861,7 @@ namespace AElfred.Net
         // Determine whether we are dealing
         // with a one-, two-, three-, or four-
         // byte sequence.
-        if (b1 < 0)
+        if ((b1 & 0x80) == 0x80)
         {
           if ((b1 & 0xe0) == 0xc0)
           {
